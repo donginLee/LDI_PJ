@@ -84,9 +84,9 @@ img{
     display:block;
     margin: 0 auto;
     border: 5px solid white;
+    background: #ccc;
     border-radius: 2%;
-    background-color: wheat;
-transform: skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .name{
@@ -95,11 +95,20 @@ transform: skewX(-10deg);
     margin-top:3px;
     margin-right:35%;
     width:60px;
+    height:15px;
     color:black;
     background: #ccc;
     text-align: center;
     border: 3px solid white;
     border-radius: 5px;
     z-index: 1px;
+
     
+}
+
+.char:hover img{
+    background-color:orange;
+}
+.char:hover {
+    transform: scale(1.1);
 }
