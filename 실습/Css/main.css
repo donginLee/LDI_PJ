@@ -184,11 +184,11 @@ a {
     color: white;
 }
 
-.char:hover .full img {
+#tanker .char:hover .full img {
     display: block;
 
 }
-.char:hover .ult {
+#tanker .char:hover .ult {
     display: block;
 }
 
