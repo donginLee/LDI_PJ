@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@import url(./reset.css);
+@import url(./core.css);
+
+/* body{
+    background: #000;
+} */
+#top{
+    position:relative;
+    height:100px;
+}
+.char>li{
+    float:left;
+    width:25%;
+    text-align: center;
+}
+.char>li:hover .smemu{
+    height:1000px;
+}
+.char {
+    content:'';
+    display:block;
+    clear:both;
+
+}
+#leftgnb{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:30%;
+}
+#rightgnb{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    width:30%;
+}
+.char>li .smenu{
+    height:0px;
+    overflow:hidden;
+}
+
+.teamlist{
+    height:200px;
+    width:200px;
+    height:600px;
+    outline: blue dashed;
+    content:'';
+    display:block;
+}
+.teamlist:first-child{
+    position:absolute;
+    left:0px;
+}
+.teamlist:last-child{
+    position:absolute;
+    right:0px;
+}
+#cont{
+    position:relative;
+    outline:green solid;
+    height:600px;
+}
+.team{
+    width:100%;
+    height:25%;
+    outline:lime dotted;
+
+}
+#stage{
+    position:absolute;
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+    outline:solid red;
+}
+#info{
+    height:300px;
+}
