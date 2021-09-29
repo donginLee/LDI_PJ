@@ -9,6 +9,7 @@
 #top{
     position:relative;
     height:100px;
+    z-index: 9999;
 }
 .char>li{
     float:left;
@@ -37,8 +38,12 @@
     width:30%;
 }
 .char>li .smenu{
+    position: absolute;
     height:0px;
     overflow:hidden;
+}
+.char>li:hover .smenu{
+    height:150px;
 }
 
 .teamlist{
